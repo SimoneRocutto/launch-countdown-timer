@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+    
+*
+    font-family: 'Red Hat Text', sans-serif
+    text-transform: uppercase
+body
+    background-image: url(./images/pattern-hills.svg), linear-gradient(0deg, #2f2439 15%, #00000000 15%), url(./images/bg-stars.svg), linear-gradient(0deg, #2f2439 15%, #231d2b 15%)
+    background-repeat: no-repeat
+    background-size: 200%
+    background-position: bottom 10% left 90%
+    height: 100vh
+    width: 100vw
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 0
+#title
+    color: white
+    font-size: 20px
+    letter-spacing: 6px
+    margin-top: 160px
+    display: flex
+    flex-direction: column
+    align-items: center
+#cd-container
+    margin-top: 60px
+    display: grid
+    width: 90%
+    grid-template-rows: 1fr
+    grid-template-columns: 1fr 1fr 1fr 1fr
+#firstBlock
+    grid-row: 1
+    grid-column: 1
+#secondBlock
+    grid-row: 1
+    grid-column: 2
+#thirdBlock
+    grid-row: 1
+    grid-column: 3
+#fourthBlock
+    grid-row: 1
+    grid-column: 4
+.cd-block
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: relative
+.cd-number
+    color: hsl(345, 95%, 68%)
+    font-size: 35px
+.cd-poster
+    color: hsl(237, 18%, 59%)
+    font-size: 7px
+    letter-spacing: 2px
+//icons
+.icon-container
+    position: fixed
+    bottom: 30px
+    margin-top: 250px
+    width: 150px
+    height: 10%
+    display: flex
+    justify-content: space-between
+    align-items: center
+.icon
+    width: 25px
+    height: 25px
+    path
+        transition: fill 0.2s
+.icon:hover
+    cursor: pointer
+    path
+        fill: hsl(345, 95%, 68%)
+.card
+    border-radius: 8px
+.fixed-top-card
+    display: block
+    width: 100%
+    height: 50%
+    background: #2b2c44
+    z-index: -1
+    position: absolute
+    transform-origin: 50% 100%
+    transition: transform ease-in 0.5s
+.top-card
+    display: block
+    width: 100%
+    height: 50%
+    background: #2b2c44
+    z-index: -1
+    position: absolute
+    transform-origin: 50% 100%
+    transition: transform ease-in 0.5s
+// .cd-block:hover
+//     .top-card
+//         transform: rotateX(-180deg)
+.bottom-card
+    display: block
+    width: 100%
+    height: 50%
+    background: #33354f
+    z-index: -2
+    position: absolute
+    bottom: 0
+    box-shadow: 0px 8px 0px hsl(234, 17%, 12%)
+.bottom-card:hover
+
+@media only screen and (min-width: 800px)
+    body
+        background-size: 100%
+        background-position: bottom 0% left 100%
+    #title 
+        display: block
+        margin-top: 10%
+        div
+            display: inline
+    #cd-container
+        margin-top: 10%
+        max-width: 700px
+    .cd-block
+        margin-left: 20px
+        margin-right: 20px
+    .cd-number
+        font-size: 70px
+    .cd-poster
+        font-size: 13px
+    .icon-container
+        margin-top: 20%
