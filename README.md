@@ -38,7 +38,7 @@ Mobile version
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
+- Solution URL: https://www.frontendmentor.io/solutions/launch-countdown-timer-with-html-css-and-javascript-H7DofEL_S
 - Site URL: https://simonerocutto.github.io/launch-countdown-timer/
 
 ### My process
