@@ -53,7 +53,8 @@ Mobile version
 
 ### What I learned
 
-- CSS: I learned how to properly position multiple background images, how to change svg fill color.
+- CSS: I learnt how to properly position multiple background images, how to change svg fill color.
+- JS: I learnt how to work with dates and how to repeat a function every 1 second (setInterval).
 
 ## Author
 
