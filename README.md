@@ -16,8 +16,6 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -32,16 +30,16 @@ Users should be able to:
 
 Desktop version
 
-![Desktop version](https://github.com/SimoneRocutto/interactive-pricing-component/blob/master/results/desktop%20screenshot.png?raw=true)
+![Desktop version](https://github.com/SimoneRocutto/launch-countdown-timer/blob/master/results/desktop.png?raw=true)
 
 Mobile version
 
-![Mobile version](https://github.com/SimoneRocutto/interactive-pricing-component/blob/master/results/mobile%20screenshot.png?raw=true)
+![Mobile version](https://github.com/SimoneRocutto/launch-countdown-timer/blob/master/results/mobile.png?raw=true)
 
 ### Links
 
 - Solution URL: https://your-solution-url.com
-- Site URL: https://simonerocutto.github.io/interactive-pricing-component/
+- Site URL: https://simonerocutto.github.io/launch-countdown-timer/
 
 ### My process
 ### Built with
@@ -55,9 +53,8 @@ Mobile version
 
 ### What I learned
 
-I learned how to make a slider starting from the range-type input html element, using css to customize it and javascript to fill its bar while moving the handle.
-I also learned how to work with input informations in order to display them on the page.
-Finally, I learned how to create a switch from a checkbox-type input html element. 
+- CSS: I learned how to properly position multiple background images, how to change svg fill color.
+
 ## Author
 
 - Frontend Mentor - [@SimoneRocutto](https://www.frontendmentor.io/profile/SimoneRocutto)

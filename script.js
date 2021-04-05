@@ -1,6 +1,6 @@
 //time in seconds
 const title = document.getElementById("title");
-const targetDate = new Date("10/10/2021").getTime();
+const targetDate = new Date("06/10/2021").getTime();
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");

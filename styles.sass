@@ -3,6 +3,7 @@
 *
     font-family: 'Red Hat Text', sans-serif
     text-transform: uppercase
+    box-sizing: border-box
 body
     background-image: url(./images/pattern-hills.svg), linear-gradient(0deg, #2f2439 15%, #00000000 15%), url(./images/bg-stars.svg), linear-gradient(0deg, #2f2439 15%, #231d2b 15%)
     background-repeat: no-repeat
@@ -25,6 +26,7 @@ body
 #cd-container
     margin-top: 60px
     display: grid
+    column-gap: 5%
     width: 90%
     grid-template-rows: 1fr
     grid-template-columns: 1fr 1fr 1fr 1fr
@@ -45,13 +47,19 @@ body
     flex-direction: column
     align-items: center
     position: relative
+    padding-top: 10px
+    padding-bottom: 10px
 .cd-number
     color: hsl(345, 95%, 68%)
+    opacity: 80%
     font-size: 35px
 .cd-poster
     color: hsl(237, 18%, 59%)
     font-size: 7px
     letter-spacing: 2px
+    transform: translateY(300%)
+    position: absolute
+    bottom: 0
 //icons
 .icon-container
     position: fixed
@@ -89,6 +97,7 @@ body
     background: #2b2c44
     z-index: -1
     position: absolute
+    top: 0
     transform-origin: 50% 100%
     transition: transform ease-in 0.5s
 // .cd-block:hover
@@ -117,9 +126,6 @@ body
     #cd-container
         margin-top: 10%
         max-width: 700px
-    .cd-block
-        margin-left: 20px
-        margin-right: 20px
     .cd-number
         font-size: 70px
     .cd-poster
